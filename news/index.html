@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>News & Updates</h1>
+<a id="rss" href="http://feeds.feedburner.com/crew-cr">RSS</a>
+<ul id="news">
+  {% for post in site.posts %}
+    <li class="new">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="date">{{ post.date | date: "%d/%m/%Y" }}</div>
+      <div class="author">{{ post.author }}</div>
+      <div class="content">{{ post.content }}</div>
+    </li>
+  {% endfor %}
+</ul>
