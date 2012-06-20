@@ -163,14 +163,17 @@ hr {
   width: 80%;
 }
 
-.new .details {
+.new .title {
   color: #bbb;
-  font-size: 0.9em;
   margin-bottom: 15px;
 }
 
-.new .details a {
-  color: #bbb;
+.new .title h2 {
+  margin: 0 5px 0 0;
+}
+
+.new .title span {
+  font-size: 0.8em;
 }
 
 .new ul {
