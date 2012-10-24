@@ -13,12 +13,11 @@ Above the file list or the diff view, you have two selectors to customize.
 
 Each of these selectors displays every commit available in the feature branch and not in the base branch.
 
-
-![Diff File](images/screenshots/diff_file.png)
+![Diff File](images/screenshots/file-diff.png)
 
 Commits related to the review request are easily identifiable.
 
-![Commit Selector](/images/screenshots/commit_selector.png)
+![Commit Selector](/images/screenshots/commit-selector.png)
 
 To use this feature, you just have to refer to this [README](https://github.com/pmsipilot/Crew/blob/master/update/README.md) and update your instance of Crew.
 
